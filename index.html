@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:url" content="https://spelletjes.ga/raad-een-getal" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1516381548400-349d680edb56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80">
+
+    <title>Raad het getal 1 -100</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <h1>Raad een getal tussen de 1 en de 100</h1>
+
+    <p>Er wordt een willekeurig getal tussen 1 en 100 gekozen. Jij moet het getal in maximaal 10 pogingen raden. Als je verkeerd raadt krijg je te zien of jouw poging te hoog of te laag was.</p>
+
+    <div class="form">
+      <label for="guessField">Raad een getal: </label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Raden!" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script src="guessNumber.js"></script>
+  </body>
+</html>
